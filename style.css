@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Gloria+Hallelujah&family=Gwendolyn&family=Homemade+Apple&family=Indie+Flower&family=My+Soul&family=Mystery+Quest&family=Nanum+Pen+Script&family=Over+the+Rainbow&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Gwendolyn', cursive; */
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'My Soul', cursive; */
+    /* font-family: 'Mystery Quest', cursive; */
+    /* font-family: 'Nanum Pen Script', cursive; */
+    /* font-family: 'Over the Rainbow', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+    /* font-family: 'Shadows Into Light', cursive; */
+    color: black;
+    background: url(./Fond.jpg) fixed;
+    background-position: auto;
+}
+/* #736558 */
+/* #3a261b */
+/* opacité 85% */
+h1 {
+    font-family: 'My Soul', cursive;  
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 12px;
+    width: 450px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #736558d5;
+    box-shadow: 5px 5px 17px 1px;
+}
+.barreduhaut {
+    height: 3px;
+    width: 550px;
+    margin: auto;
+    margin-top: -25px;
+    background-color: #736558e8;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    background-color: #736558d5;
+    margin-right: auto;
+    margin-left: auto;
+    width: 405px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 17px 1px;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.ul{
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 80%;
+    min-width: 800px;
+    flex-direction: row;
+    margin: 15px auto 35px auto;
+    list-style-type: none;
+}
+li {
+    background: #ad8b6bd5;
+    width: 240px;
+    height: 40px;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 17px 1px;
+}
+ul a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.pageprece a {
+    color: black;
+}
+
+a:hover{
+    color: rgb(5, 50, 90);
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}
+
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #736558d5;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: baseline;
+    box-shadow: 5px 5px 17px 1px;
+    min-width: 600px;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photos img{
+    object-fit: fill;
+    margin: 10px;
+    transition: ease-in-out 0.2s;
+    animation-direction: alternate-reverse;
+    border-radius: 15px;
+    border: 1px rgb(0, 0, 0) solid;
+    cursor: pointer;
+    max-width: 500px;
+
+}
+
+/* -------------------GROSSES IMAGES------------------------- */
+#img1big {
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 450px;
+    height: 95%;
+    border: 2px black solid;
+    z-index: 10;
+}
+#img2big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 220px;
+    height: 95%;
+    border: 2px black solid;
+    z-index: 10;
+}
+#img3big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 260px;
+    height: 95%;
+    border: 2px black solid;
+    z-index: 10;
+}
+#img4big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 700px;
+    height: 95%;
+    border: 2px black solid;
+    z-index: 10;
+}
+#img5big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 480px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img6big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 250px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img7big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 250px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img8big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 400px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img9big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 600px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10; 
+}
+#img10big, #img11big, #img12big, #img13big, #img14big, #img15big, #img16big, #img17big, #img18big, #img19big, #img21big, #img23big {
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 480px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img20big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 580px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img22big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 340px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+#img24big{
+    display: none;
+    position: fixed;
+    width: auto;
+    top: 30px;
+    right: 620px;
+    border: 2px black solid;
+    height: 95%;
+    z-index: 10;
+}
+/* ------------------------GROSSES IMAGES-------------------------- */
+#img1{
+    height: 400px;
+}
+#img2{
+    height: 380px;
+}
+#img3 {
+    height: 350px;
+}
+#img4 {
+    width: 500px;
+    height: 350px;
+}
+
+.photos img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    filter: brightness(0.8);
+    border: 2px white solid;
+}
+
+/* ------------------PAGE 2 ---------------------------------- */
+.page2 {
+    background: url(./Media/Fond_page2.jpg) fixed;
+}
+
+.pageprece {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    background: rgba(129, 221, 129, 0.75);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 5px 5px 17px 1px;
+
+}
+
+.pageprece p:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+span {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.sacha {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: rgba(129, 221, 129, 0.75);
+    margin: 150px auto 0 auto;
+    border: 2px black solid;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    text-align: justify;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 1px;
+}
+
+.img_sacha {
+float: left;
+margin-right: 10px;
+border-radius: 10px;
+border: 2px black solid;
+}
+/* ------------------PAGE 2 ---------------------------------- */
+.hautpage{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px;
+    width: 250px;
+    background: #ad8b6bd5;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+#mail{
+    font-size: 1.8em;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    background-color: #736558d5;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 405px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 17px 1px;
+}
+
+#deuxiemetrait{
+    height: 3px;
+    width: 60%;
+    background-color: #736558e8;
+    margin: 40px auto;
+}
+#reseaux{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#reseaux a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.8em;
+    color: black;
+}
+#reseaux a:hover {
+    transform: scale(1.5);
+    transition: 0.1s ease-in-out;
+  }
+#description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description p {
+    padding: 10px;
+}
